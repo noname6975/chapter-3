@@ -1,0 +1,22 @@
+start
+
+new AB number
+new BC number
+new CD number
+new AD number
+new Waiting number
+
+set AB 5
+set BC 10
+set AD 50
+set Waiting 10
+
+set CD 5 + AB + BC + Waiting
+
+if (AD > CD)
+   log string "faster by bus"
+else
+   log string "walking is faster"
+close
+
+finish
