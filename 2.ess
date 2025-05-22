@@ -1,0 +1,17 @@
+start
+
+new money number
+
+new bread number
+
+log number 25 + money
+
+set bread 25 + money
+
+if (money > bread)
+   log string "He/she can buy bread"
+else
+   log string "He/she cannot buy bread" 
+close
+
+finish
