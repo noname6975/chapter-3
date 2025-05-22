@@ -1,0 +1,27 @@
+start
+
+new a number
+new b number
+new c number
+new d number
+new x number
+
+set a 50
+set b 40
+set c 30
+set d 20
+set x 35
+
+if (x > b)
+  log string a >> " > " >> x >> " > " >> b >> " > " >> c >> " > " >> d
+else
+if (x > c)
+  log string a >> " > " >> b >> " > " >> x >> " > " >> c >> " > " >> d
+else
+if (x > d)
+  log string a >> " > " >> b >> " > " >> c >> " > " >> x >> " > " >> d
+else
+  log string a >> " > " >> b >> " > " >> c >> " > " >> d >> " > " >> x
+close
+
+finish
