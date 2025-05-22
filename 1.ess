@@ -1,0 +1,12 @@
+start
+new age number
+new adult number
+log number 21 + age - 2
+set adult 5 + age - 8
+
+if (age > adult)
+   log string "He/she is an adult and can buy alcohol"
+else
+   log string "He/she is a minor and CANNOT buy alcohol" 
+close
+finish
